@@ -1,17 +1,5 @@
 dependencies:
   - name: 'datacomb'
     version: 0.0.1
-    src: 'lib'
-    script: 'datacomb.js'
-    stylesheet:
-      - 'css/htmlwidget-reset.css'
-      - 'css/global.css'
-      - 'css/datacomb.css'
-  - name: 'Inconsolata Google Font'
-    src: 'lib'
-    version: 0.0.0
-    stylesheet: 'inconsolata-google-font.css'
-  - name: fontawesome
-    version: 4.3.0
-    src: "lib"
-    stylesheet: "lib/font-awesome.css"
+    src: 'htmlwidgets'
+    script: 'lib/datacomb.js'
