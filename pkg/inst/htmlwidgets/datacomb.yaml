@@ -3,11 +3,3 @@ dependencies:
     version: 0.0.1
     src: 'htmlwidgets'
     script: 'lib/datacomb.js'
-  - name: 'Inconsolata Google Font'
-    src: 'htmlwidgets'
-    version: 0.0.0
-    stylesheet: 'lib/inconsolata-google-font.css'
-  - name: fontawesome
-    version: 4.3.0
-    src: "htmlwidgets"
-    stylesheet: "lib/font-awesome.css"
