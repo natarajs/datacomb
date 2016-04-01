@@ -10,8 +10,8 @@ dependencies:
   - name: 'Inconsolata Google Font'
     src: 'htmlwidgets'
     version: 0.0.0
-    stylesheet: 'lib/css/inconsolata-google-font.css'
+    stylesheet: 'lib/inconsolata-google-font.css'
   - name: fontawesome
     version: 4.3.0
     src: "htmlwidgets"
-    stylesheet: "lib/css/font-awesome.css"
+    stylesheet: "lib/font-awesome/font-awesome.css"
