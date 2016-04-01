@@ -3,7 +3,3 @@ dependencies:
     version: 0.0.1
     src: 'lib'
     script: 'datacomb.js'
-    stylesheet:
-      - 'css/htmlwidget-reset.css'
-      - 'css/global.css'
-      - 'css/datacomb.css'
