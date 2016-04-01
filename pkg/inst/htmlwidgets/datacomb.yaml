@@ -13,5 +13,5 @@ dependencies:
     stylesheet: 'inconsolata-google-font.css'
   - name: fontawesome
     version: 4.3.0
-    src: "lib/font-awesome"
-    stylesheet: font-awesome.css
+    src: "lib"
+    stylesheet: "lib/font-awesome.css"
