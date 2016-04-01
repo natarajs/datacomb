@@ -15,7 +15,7 @@
 #' @import htmlwidgets
 #'
 #' @export
-Datacomb <- function(
+datacomb <- function(
   data = NULL, columns = colnames(data), rowLabel = NULL,
   width = NULL, height = NULL
 ) {
