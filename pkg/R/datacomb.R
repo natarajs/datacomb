@@ -57,7 +57,7 @@ Datacomb <- function(
   )
 }
 
-datacomb_html <- function(id, style, class, ...){
+datacomb_html1 <- function(id, style, class, ...){
   tags$span(id = id, class = class)
 }
 
