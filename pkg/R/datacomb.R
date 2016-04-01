@@ -65,7 +65,7 @@ datacomb_html <- function(id, style, class, ...){
 #'
 #' @export
 DatacombOutput <- function(outputId, width = '100%', height = '400px'){
-  shinyWidgetOutput(outputId, 'datacomb', width, height, package = 'datacomb')
+  htmlwidgets::shinyWidgetOutput(outputId, 'datacomb', width, height)
 }
 
 #' Widget render function for use in Shiny
@@ -73,5 +73,5 @@ DatacombOutput <- function(outputId, width = '100%', height = '400px'){
 #' @export
 renderDatacomb <- function(expr, env = parent.frame(), quoted = FALSE) {
   if (!quoted) { expr <- substitute(expr) } # force quoted
-  shinyRenderWidget(expr, DatacombOutput, env, quoted = TRUE)
+  htmlwidgets::shinyRenderWidget(expr, DatacombOutput, env, quoted = TRUE)
 }
