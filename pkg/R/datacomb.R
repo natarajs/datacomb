@@ -57,6 +57,10 @@ Datacomb <- function(
   )
 }
 
+datacomb_html <- function(id, style, class, ...){
+  tags$span(id = id, class = class)
+}
+
 #' Widget output function for use in Shiny
 #'
 #' @export
